@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: url(/img/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 41px;
+    padding-bottom: 317px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header h1 {
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    /*display: block;
+    margin: auto;*/
+    margin-bottom: 10px ;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    /*display: block;
+    margin: auto;*/
+    margin-top:0px; 
+    padding-bottom: 221px;
+}
+header a{
+    /*display: block;
+    margin: auto;*/
+    padding-bottom: 71px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+}
