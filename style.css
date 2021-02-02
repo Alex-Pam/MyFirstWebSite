@@ -54,9 +54,63 @@ header {
     background-color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0 55px 0 55px;
+    justify-content: space-around;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: sticky;
+    top:0;
 }
-.nav a{
-    color: black;
+
+nav a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color:#48555B;
+    letter-spacing: 1.09091px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+nav a:hover{
+    font-weight: bold;
+    animation-name: navbar;
+    animation-duration: 250ms;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+}
+@keyframes navbar{
+    50%{
+        border-bottom: 1px dotted cyan;
+        color:#1689b6;
+    }
+    100%{
+        border-bottom: 2px solid cyan;
+        color:#00A4E5;
+    }
+}
+.ourstory{
+    background-color: white;
+    padding-bottom: 400px;
+}
+.ourstory h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #48555B;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+}
+.ourstory hr{
+    width: 50px;
+    height: 2px;
+    margin-top: 0;
+    border: none;
+    color:#00A4E5;
+    background-color: #00A4E5;
 }
