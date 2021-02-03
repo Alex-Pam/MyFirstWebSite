@@ -118,10 +118,7 @@ nav a:hover{
     display: flex;
     justify-content: space-around;
 }
-.text{
-    display: flex;
-    flex-direction: column;
-}
+
 .text article{
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -144,16 +141,7 @@ nav a:hover{
     align-items: center;
     letter-spacing: 0.1875px;
     color: #48555B;
-}
-@media handheld{
-    .img{
-        display: flex;
-        flex-direction: column;
-    }
-}
-.img{
-    display: flex;
-    flex-direction: row;
+    padding-bottom: 119px;
 }
 .img img{
     padding-right: 20px;
