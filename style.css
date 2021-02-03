@@ -127,6 +127,7 @@ nav a:hover{
     line-height: 27px;
     letter-spacing: 0.1875px;
     color: #48555B;
+    padding-left: 5px;
 }
 .text span{
     color:#33B6EB;
@@ -142,7 +143,8 @@ nav a:hover{
     letter-spacing: 0.1875px;
     color: #48555B;
     padding-bottom: 119px;
+    padding-left: 5px;
 }
 .img img{
-    padding-right: 20px;
+    padding-right: 10px;
 }
