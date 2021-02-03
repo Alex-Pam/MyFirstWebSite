@@ -118,7 +118,9 @@ nav a:hover{
     display: flex;
     justify-content: space-around;
 }
-
+.text{
+    margin-right: 1em;
+}
 .text article{
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -126,8 +128,7 @@ nav a:hover{
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.1875px;
-    color: #48555B;
-    padding-right: 30px;
+    color: #48555B; 
 }
 .text span{
     color:#33B6EB;
@@ -143,8 +144,4 @@ nav a:hover{
     letter-spacing: 0.1875px;
     color: #48555B;
     padding-bottom: 119px;
-    padding-right: 30px;
-}
-.img img{
-    padding-right: 10px;
 }
