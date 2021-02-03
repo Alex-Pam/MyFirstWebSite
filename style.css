@@ -145,6 +145,12 @@ nav a:hover{
     letter-spacing: 0.1875px;
     color: #48555B;
 }
+@media handheld{
+    .img{
+        display: flex;
+        flex-direction: column;
+    }
+}
 .img{
     display: flex;
     flex-direction: row;
