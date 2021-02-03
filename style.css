@@ -92,7 +92,6 @@ nav a:hover{
 }
 .ourstory{
     background-color: white;
-    padding-bottom: 400px;
 }
 .ourstory h2{
     text-align: center;
@@ -113,4 +112,43 @@ nav a:hover{
     border: none;
     color:#00A4E5;
     background-color: #00A4E5;
+    margin-bottom: 80px;
+}
+.ourstory_content{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text article{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+.text span{
+    color:#33B6EB;
+}
+.text p{
+    font-family:"Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+}
+.img img{
+    padding-right: 20px;
 }
