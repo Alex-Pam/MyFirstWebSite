@@ -120,6 +120,7 @@ nav a:hover{
 }
 .text{
     margin-right: 1em;
+    padding-right:1em;
 }
 .text article{
     font-family: "Open Sans", sans-serif;
