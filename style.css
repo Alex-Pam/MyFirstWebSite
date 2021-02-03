@@ -116,13 +116,9 @@ nav a:hover{
 }
 .ourstory_content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-.text{
-    margin-left: 1em;
-    padding-left:1em;
-    margin-right: 1em;
-}
+
 .text article{
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -146,4 +142,60 @@ nav a:hover{
     letter-spacing: 0.1875px;
     color: #48555B;
     padding-bottom: 119px;
+}
+.img img:hover{
+    animation-name: image;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes image{
+ 100%{
+        padding: 0 20px 20px 20px;
+        transform: translateY(5)
+    }
+}
+.service{
+    display: flex;
+    justify-content: center;
+}
+.header_and_line h3{
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    margin-bottom: 0px;
+}
+.header_and_line hr{
+    width: 50px;
+    height: 2px;
+    border: none;
+    color:#00A4E5;
+    background-color: #00A4E5;
+    margin-bottom: 80px;
+    float: left;
+}
+.service p {
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+.service button{
+    margin-top: 15px;
+    margin-right: 75px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font: inherit;
+    color:white;
+    background-color: #00A4E5;
+}
+.service button:hover{
+    cursor: pointer;
 }
