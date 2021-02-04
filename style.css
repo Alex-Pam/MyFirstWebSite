@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .hero h1 {
@@ -124,6 +125,7 @@ nav a:hover {
 .ourstory_content {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .text article {
@@ -225,7 +227,7 @@ nav a:hover {
 .ourworks {
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 .box {
@@ -237,9 +239,11 @@ nav a:hover {
     box-sizing: border-box;
     margin-bottom: 110px;
 }
-.box img{
+
+.box img {
     padding-top: 38px;
 }
+
 .work_name {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -260,15 +264,17 @@ nav a:hover {
     color: #48555B;
     padding-bottom: 30px;
 }
-.get_in_touch{
+
+.get_in_touch {
     background: url(/img/bg1.png);
     background-size: cover;
     background-position: center;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
     padding-top: 115px;
 }
-.contact h2{
-    font-family: "Open Sans",sans-serif;
+
+.get_in_touch h2 {
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -278,7 +284,8 @@ nav a:hover {
     color: #48555B;
     margin-bottom: 40px;
 }
-.get_in_touch button{
+
+.get_in_touch button {
     display: block;
     width: 150px;
     height: 40px;
@@ -286,4 +293,69 @@ nav a:hover {
     border: none;
     color: white;
     margin: auto;
+}
+.email_form{
+    background-color:#171819;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.email_form h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.singup{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#email{
+    padding: 11px 100px 11px 15px;
+}
+#signup_button{
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: none;
+    color: white;
+}
+@media screen and (max-width: 800px ){
+    .service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service button{
+        display: block;
+        margin: auto;
+    }
+    .ourworks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .email_form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
