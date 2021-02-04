@@ -342,12 +342,6 @@ nav a:hover {
         justify-content: center;
         align-items: center;
     }
-    .service p{
-        text-align: center;
-    }
-    .service h3{
-        text-align: center;
-    }
     .service hr{
         float:none;
     }
