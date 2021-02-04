@@ -60,7 +60,7 @@ header {
     padding-top: 25px;
     padding-bottom: 25px;
     position: sticky;
-    top:0;
+    top: 0;
 }
 
 nav a {
@@ -68,32 +68,37 @@ nav a {
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
-    color:#48555B;
+    color: #48555B;
     letter-spacing: 1.09091px;
     text-decoration: none;
     margin-left: 30px;
 }
-nav a:hover{
+
+nav a:hover {
     font-weight: bold;
     animation-name: navbar;
     animation-duration: 250ms;
-    animation-iteration-count:1;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-@keyframes navbar{
-    50%{
+
+@keyframes navbar {
+    50% {
         border-bottom: 1px dotted cyan;
-        color:#1689b6;
+        color: #1689b6;
     }
-    100%{
+
+    100% {
         border-bottom: 2px solid cyan;
-        color:#00A4E5;
+        color: #00A4E5;
     }
 }
-.ourstory{
+
+.ourstory {
     background-color: white;
 }
-.ourstory h2{
+
+.ourstory h2 {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -105,34 +110,38 @@ nav a:hover{
     line-height: 25px;
     letter-spacing: 2.30625px;
 }
-.ourstory hr{
+
+.ourstory hr {
     width: 50px;
     height: 2px;
     margin-top: 0;
     border: none;
-    color:#00A4E5;
+    color: #00A4E5;
     background-color: #00A4E5;
     margin-bottom: 80px;
 }
-.ourstory_content{
+
+.ourstory_content {
     display: flex;
     justify-content: center;
 }
 
-.text article{
+.text article {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.1875px;
-    color: #48555B; 
+    color: #48555B;
 }
-.text span{
-    color:#33B6EB;
+
+.text span {
+    color: #33B6EB;
 }
-.text p{
-    font-family:"Open Sans",sans-serif;
+
+.text p {
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -143,28 +152,33 @@ nav a:hover{
     color: #48555B;
     padding-bottom: 119px;
 }
-.img img:hover{
+
+.img img:hover {
     animation-name: image;
     animation-duration: 1s;
     animation-fill-mode: none;
 }
-@keyframes image{
-  50%{
-        
+
+@keyframes image {
+    50% {
+
         transform: scaleX(-1);
-        transform:scaleY(-1.2);
+        transform: scaleY(-1.2);
     }
-    100%{
+
+    100% {
         transform: scaleX(1);
-        transform:scaleY(1.2);
+        transform: scaleY(1.2);
     }
 }
-.service{
+
+.service {
     display: flex;
     justify-content: center;
 }
-.header_and_line h3{
-    font-family: "Open Sans" sans-serif;
+
+.header_and_line h3 {
+    font-family: "Open Sans"sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -173,17 +187,19 @@ nav a:hover{
     color: #48555B;
     margin-bottom: 0px;
 }
-.header_and_line hr{
+
+.header_and_line hr {
     width: 70px;
     height: 2px;
     border: none;
-    color:#00A4E5;
+    color: #00A4E5;
     background-color: #00A4E5;
     margin-bottom: 80px;
     float: left;
 }
+
 .service p {
-    font-family: "Open Sans" sans-serif;
+    font-family: "Open Sans"sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -191,16 +207,83 @@ nav a:hover{
     letter-spacing: 0.1875px;
     color: #48555B;
 }
-.service button{
+
+.service button {
     margin-top: 15px;
     margin-right: 75px;
     width: 150px;
     height: 40px;
     border: none;
-    font: inherit;
-    color:white;
+    color: white;
     background-color: #00A4E5;
 }
-.service button:hover{
+
+.service button:hover {
     cursor: pointer;
+}
+
+.ourworks {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    margin-bottom: 110px;
+}
+.box img{
+    padding-top: 38px;
+}
+.work_name {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+}
+
+.work_direction {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+    padding-bottom: 30px;
+}
+.get_in_touch{
+    background: url(/img/bg1.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 250px;
+    padding-top: 115px;
+}
+.contact h2{
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    margin-bottom: 40px;
+}
+.get_in_touch button{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: none;
+    color: white;
+    margin: auto;
 }
