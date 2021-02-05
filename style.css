@@ -125,8 +125,12 @@ nav a:hover {
 .ourstory_content {
     display: flex;
     justify-content: center;
+    
 }
 
+.text{
+    margin-right: 10.6em;
+}
 .text article {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -177,7 +181,9 @@ nav a:hover {
     display: flex;
     justify-content: center;
 }
-
+.header_and_line{
+    margin-right: 9em;
+}
 .header_and_line h3 {
     font-family: "Open Sans"sans-serif;
     font-style: normal;
@@ -207,16 +213,19 @@ nav a:hover {
     line-height: 23px;
     letter-spacing: 0.1875px;
     color: #48555B;
+    
+   
 }
 
 .service button {
     margin-top: 15px;
-    margin-right: 75px;
+    margin-left: 3em;
     width: 150px;
     height: 40px;
     border: none;
     color: white;
     background-color: #00A4E5;
+    
 }
 
 .service button:hover {
@@ -226,14 +235,14 @@ nav a:hover {
 .ourworks {
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
 .box {
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1.1em;
+    margin-right: 1.1em;
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
     margin-bottom: 110px;
@@ -266,7 +275,6 @@ nav a:hover {
 
 .get_in_touch {
     background: url(/img/bg1.png);
-    background-size: cover;
     background-position: center;
     padding-bottom: 200px;
     padding-top: 115px;
@@ -343,7 +351,7 @@ nav a:hover {
 .links {
     display: flex;
     justify-content: center;
-    background-color: #141A20;
+    background-color:  #171819;
     padding-top: 45px;
     padding-bottom: 50px;
 }
@@ -416,7 +424,7 @@ footer p{
     letter-spacing: 0.846154px;
     color: #FFFFFF;
 }
-@media screen and (max-width: 800px) {
+@media(max-width: 800px) {
     .service {
         display: flex;
         flex-direction: column;
@@ -447,8 +455,15 @@ footer p{
         justify-content: center;
         align-items: center;
     }
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 @font-face{
     font-family: "Open Sans";
     src: url(/fonts/Open_Sans/OpenSans-Regular.ttf) format(truetype);
+    font-style:normal;
 }
