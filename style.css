@@ -293,14 +293,16 @@ nav a:hover {
     color: white;
     margin: auto;
 }
-.email_form{
-    background-color:#171819;
+
+.email_form {
+    background-color: #171819;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.email_form h3{
+
+.email_form h3 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: "Open Sans", sans-serif;
@@ -316,7 +318,8 @@ nav a:hover {
     padding-left: 55px;
     padding-right: 55px;
 }
-.singup{
+
+.singup {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 55px;
@@ -324,41 +327,128 @@ nav a:hover {
     display: inline-block;
     margin-right: 10px;
 }
-#email{
+
+.email_input {
     padding: 11px 100px 11px 15px;
 }
-#signup_button{
+
+.signup_button {
     width: 150px;
     height: 40px;
     background: #00A4E5;
     border: none;
     color: white;
 }
-@media screen and (max-width: 800px ){
-    .service{
+
+.links {
+    display: flex;
+    justify-content: center;
+    background-color: #141A20;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.company p,
+.links_nav p,
+.our_contact p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+.company img{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.links_nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links_nav a,
+.another_links a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.another_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.media_logo{
+    margin-top: 13px;
+}
+.media_logo a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer{
+    background-color: #171819;
+
+}
+footer p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 800px) {
+    .service {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .service hr{
-        float:none;
+
+    .service hr {
+        float: none;
     }
-    .service button{
+
+    .service button {
         display: block;
         margin: auto;
         margin-bottom: 20px;
     }
-    .ourworks{
+
+    .ourworks {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .email_form{
+
+    .email_form {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url(/fonts/Open_Sans/OpenSans-Regular.ttf) format(truetype);
 }
