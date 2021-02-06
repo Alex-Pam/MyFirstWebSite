@@ -127,7 +127,6 @@ nav a:hover {
 .ourstory_content {
     display: flex;
     justify-content: center;
-
 }
 
 .text {
@@ -240,11 +239,13 @@ nav a:hover {
     animation-duration: 1s;
 
 }
-.service button:focus{
+
+.service button:focus {
     background-color: #0c6c92;
 }
-@keyframes service_button{
-    100%{
+
+@keyframes service_button {
+    100% {
         background-color: #0d5875;
         border-radius: 5%;
     }
@@ -321,6 +322,7 @@ nav a:hover {
     color: white;
     margin: auto;
 }
+
 .get_in_touch button:hover {
     cursor: pointer;
     animation-name: get_in_touch_button;
@@ -328,11 +330,13 @@ nav a:hover {
     animation-duration: 1s;
 
 }
-.get_in_touch button:focus{
+
+.get_in_touch button:focus {
     background-color: #0c6c92;
 }
-@keyframes get_in_touch_button{
-    100%{
+
+@keyframes get_in_touch_button {
+    100% {
         background-color: #0d5875;
         border-radius: 5%;
     }
@@ -468,13 +472,43 @@ footer p {
 }
 
 @media(max-width: 800px) {
+    .content h1 {
+        font-size: 30px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .ourstory_content {
+        display: flex;
+        justify-content: center;
+        padding-left:1.5em;
+        padding-right:1.5em;
+    }
+    .img img{
+        float: right;
+    }
+    .text {
+        margin: auto;
+        margin-right:1em;
+    }
+
     .service {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
+ .header_and_line{
+     display: block;
+     margin: auto;
+ }
+    .service p{
+        text-align: center;
+    }
     .service hr {
         float: none;
     }
@@ -497,6 +531,15 @@ footer p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .singup{
+        padding: 15px;
     }
 
     .links {
