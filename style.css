@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 .ourstory {
-    margin-top:-55px;
+    margin-top: -55px;
     padding-top: 55px;
     background-color: white;
 }
@@ -127,12 +127,13 @@ nav a:hover {
 .ourstory_content {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.text{
+.text {
     margin-right: 10.6em;
 }
+
 .text article {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -182,12 +183,14 @@ nav a:hover {
 .service {
     display: flex;
     justify-content: center;
-    margin-top:-70px;
+    margin-top: -70px;
     padding-top: 70px;
 }
-.header_and_line{
+
+.header_and_line {
     margin-right: 9em;
 }
+
 .header_and_line h3 {
     font-family: "Open Sans"sans-serif;
     font-style: normal;
@@ -217,8 +220,6 @@ nav a:hover {
     line-height: 23px;
     letter-spacing: 0.1875px;
     color: #48555B;
-    
-   
 }
 
 .service button {
@@ -229,17 +230,30 @@ nav a:hover {
     border: none;
     color: white;
     background-color: #00A4E5;
-    
+
 }
 
 .service button:hover {
     cursor: pointer;
+    animation-name: service_button;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+
+}
+.service button:focus{
+    background-color: #0c6c92;
+}
+@keyframes service_button{
+    100%{
+        background-color: #0d5875;
+        border-radius: 5%;
+    }
 }
 
 .ourworks {
     display: flex;
     justify-content: center;
-    margin-top:-75px;
+    margin-top: -75px;
     padding-top: 75px;
 
 }
@@ -307,6 +321,22 @@ nav a:hover {
     color: white;
     margin: auto;
 }
+.get_in_touch button:hover {
+    cursor: pointer;
+    animation-name: get_in_touch_button;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+
+}
+.get_in_touch button:focus{
+    background-color: #0c6c92;
+}
+@keyframes get_in_touch_button{
+    100%{
+        background-color: #0d5875;
+        border-radius: 5%;
+    }
+}
 
 .email_form {
     background-color: #171819;
@@ -357,7 +387,7 @@ nav a:hover {
 .links {
     display: flex;
     justify-content: center;
-    background-color:  #171819;
+    background-color: #171819;
     padding-top: 45px;
     padding-bottom: 50px;
 }
@@ -376,14 +406,16 @@ nav a:hover {
     padding-right: 35px;
 
 }
-.company img{
+
+.company img {
     padding-left: 35px;
     padding-right: 35px;
 }
+
 .links_nav {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .links_nav a,
@@ -405,18 +437,22 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
 }
-.media_logo{
+
+.media_logo {
     margin-top: 13px;
 }
-.media_logo a{
+
+.media_logo a {
     padding-left: 15px;
     padding-right: 15px;
 }
-footer{
+
+footer {
     background-color: #171819;
 
 }
-footer p{
+
+footer p {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
@@ -430,6 +466,7 @@ footer p{
     letter-spacing: 0.846154px;
     color: #FFFFFF;
 }
+
 @media(max-width: 800px) {
     .service {
         display: flex;
@@ -461,15 +498,17 @@ footer p{
         justify-content: center;
         align-items: center;
     }
-    .links{
+
+    .links {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
 }
-@font-face{
+
+@font-face {
     font-family: "Open Sans";
     src: url(/fonts/Open_Sans/OpenSans-Regular.ttf) format(truetype);
-    font-style:normal;
+    font-style: normal;
 }
