@@ -96,6 +96,8 @@ nav a:hover {
 }
 
 .ourstory {
+    margin-top:-55px;
+    padding-top: 55px;
     background-color: white;
 }
 
@@ -180,6 +182,8 @@ nav a:hover {
 .service {
     display: flex;
     justify-content: center;
+    margin-top:-70px;
+    padding-top: 70px;
 }
 .header_and_line{
     margin-right: 9em;
@@ -235,6 +239,8 @@ nav a:hover {
 .ourworks {
     display: flex;
     justify-content: center;
+    margin-top:-75px;
+    padding-top: 75px;
 
 }
 
